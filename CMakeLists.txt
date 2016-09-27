@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.6.2)
+cmake_minimum_required(VERSION 3.4)
 
 macro(define_source_root_groups grouproot base directory)
 	file(GLOB children RELATIVE ${PROJECT_SOURCE_DIR}/${base}/${directory} ${PROJECT_SOURCE_DIR}/${base}/${directory}*)
