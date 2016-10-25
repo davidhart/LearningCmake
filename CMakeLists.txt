@@ -8,5 +8,5 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)
 
 #include_directories(${PROJECT_SOURCE_DIR})
 
-add_executable(hello ${PROJECT_SOURCE_DIR}/main.cpp)
+add_executable(hello ${PROJECT_SOURCE_DIR}/src/main.cpp)
 
