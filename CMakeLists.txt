@@ -9,3 +9,5 @@ add_executable(hello2 src/main2.cpp)
 target_include_directories(hello2 PRIVATE core/src/hello-lib)
 target_link_libraries(hello2 hello-lib)
 add_dependencies(hello hello2)
+
+define_source_root_groups("src" "src" "")
