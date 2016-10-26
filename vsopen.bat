@@ -1,2 +1,1 @@
-vssetup.bat
-explorer ".\build\vs\hello.sln"
+explorer "build\vs\hello2.sln"
